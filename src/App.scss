@@ -1,0 +1,9 @@
+.video-cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(298px, auto));
+	.video-card {
+		width: 298px;
+		margin-right: 20px;
+		margin-top: 20px;
+	}
+}

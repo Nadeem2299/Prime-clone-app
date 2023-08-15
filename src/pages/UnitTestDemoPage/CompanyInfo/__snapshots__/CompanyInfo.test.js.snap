@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompanyInfo has right snapshot with all requirements completed 1`] = `
+<div>
+  <h2>
+    Company Info | Testing JSX, Props, Styles, Events, States, Snapshot
+  </h2>
+  <h3
+    data-testid="companyName"
+  >
+    Company Name: Cognizant
+  </h3>
+  <p
+    data-testid="foundedYear"
+    style={
+      Object {
+        "color": "#ff0000",
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Founded Year: 
+    1994
+  </p>
+  <p
+    data-testid="headQuarters"
+  >
+    Headquarters: 
+    Teaneck, New Jersey, U.S.
+  </p>
+  <button
+    className="btn btn-primary"
+    data-testid="cognizantBtn"
+  >
+    JOIN COGNIZANT
+  </button>
+  <hr />
+  <input
+    onChange={[Function]}
+    placeholder="Enter Your Country Name"
+    type="text"
+    value="USA"
+  />
+  <p
+    data-testid="visitWebsite"
+  >
+    Please visit Cognizant UK website
+  </p>
+  <input
+    className="form-control"
+    placeholder="Enter E-Mail"
+    style={
+      Object {
+        "width": "300px",
+      }
+    }
+    type="email"
+  />
+  <button
+    className="btn btn-primary"
+    type="button"
+  >
+    Subscribe(d) to Careers Newsletter
+  </button>
+  <p>
+    We will send Careers Newsletter E-Mails to a@b.com
+  </p>
+</div>
+`;
